@@ -77,7 +77,6 @@ Quando um grupo de consumer se conecta a um topico, cada consumer so pode se con
     <img src="imgs/consumers-group.png">
 </p>
 
-<br>
 Grupos podem se conectar e mais de um topico.
 
 <p align="center">
@@ -107,7 +106,7 @@ kafka-console-consumer.sh --tipic quickstart-events --from-beginnig --bootstrap-
 # Consumir as mensagens novas de um topico
 kafka-console-consumer.sh --topic-quickstart-events --bootstrap-server localhost:9092
 ```
-<br>
+
 - comandos para criacao de grupos.
 
 ```bash
