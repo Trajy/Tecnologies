@@ -87,6 +87,7 @@ Grupos podem se conectar e mais de um topico.
 ## Comandos
 
 - Comandos Basicos
+
 ```bash
 # Listar todos os topicos
 kafka-topics.sh --bootstrap-server=localhost:9092 --list
